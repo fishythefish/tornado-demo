@@ -4,7 +4,6 @@ window.addEventListener("DOMContentLoaded", function() {
     ws.onopen = function() {
         console.log("WebSocket opened");
 
-        var form = document.getElementById("form");
         var text = document.getElementById("text");
         var button = document.getElementById("button");
 
